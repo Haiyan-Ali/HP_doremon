@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    body {
+
+        background-color: black;
+    }
+
+    main {
+        height: 100vh;
+        background-image: url("/images/cake_image.png");
+    }
+
+    #yes_no_answer_div {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .my_small_btn {
+        border: none;
+        background-color: greenyellow;
+        width: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        padding: 3px 0;
+        border-radius: 4px;
+    }
+
+    #yes_btn {
+        background-color: rgb(177, 245, 75);
+    }
+
+    #no_btn {
+        background-color: rgb(241, 93, 93);
+    }
+
+
+
+    #Canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .happy_heading {
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+        top: -50px;
+
+    }
+
+    #happy_heading_1 {
+        color: rgb(247, 105, 247);
+        left: 88px;
+    }
+
+    #happy_heading_2 {
+        color: rgb(243, 127, 60);
+        right: 118px;
+    }
+
+    #happy_heading_3 {
+        color: rgb(123, 248, 185);
+        left: 65px;
+    }
+
+    #happy_heading_4 {
+        color: rgb(239, 241, 114);
+        left: 115px;
+    }
+
+    #happy_heading_5 {
+        color: rgb(104, 144, 255);
+        right: 90px;
+    }
+
+    #happy_heading_6 {
+        position: absolute;
+        bottom: -50%;
+        left: 30%;
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+
+
+
+
+
+    #main74 {
+        position: absolute;
+        top: 0px;
+        top: calc(-1650px - 80vh);
+        width: 100vw;
+        transition: top 0.3s ease;
+    }
+
+    .child_cont_1 {
+        /* background-color: grey; */
+        height: auto;
+        min-height: 10px;
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .child_cont_2 {
+        /* background-color: grey; */
+        height: auto;
+        min-height: 10px;
+        display: flex;
+    }
+
+    .child {
+        font-family: 'Dosis', sans-serif;
+        min-width: 100px;
+        max-width: 75vw;
+        width: auto;
+        background-color: #a1a1a1;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 20px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+</style>
+
+<body>
+    <!-- ===================================================================================== -->
+    <button type="button" class="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#exampleModal"
+        id="yes_no_modal_A_btn">
+        Launch demo modal
+    </button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div style="background-color: black; color:white;" class="modal-body">
+                    <div id="yes_no_answer_div">
+                        <p>Are You My Doremon ?</p>
+                        <button class="my_small_btn" id="yes_btn" onclick="yes_i_am_doremon()">Yes</button>
+                        <button class="my_small_btn" id="no_btn" onclick="no_i_am_doremon()">No</button>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-secondary d-none" id="yes_no_modal_close_btn"
+                    data-bs-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+    <!-- ===================================================================================== -->
+
+
+    <button type="button" class="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#universalModal"
+        id="universal_modal_A_btn">
+        Launch demo modal
+    </button>
+    <div class="modal fade" id="universalModal" tabindex="-1" aria-labelledby="universalModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+
+                <div class="modal-body" style="background: black; height: 88vh; color:white;" id="universal_modal_body">
+
+
+
+                    <button type="button" class="btn btn-secondary d-none" id="universal_modal_close_btn"
+                        data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================================================== -->
+
+    <div id="main">
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        if ("geolocation" in navigator) {
+            // Get the user's location
+            navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+        } else {
+            // Geolocation API is not available in this browser
+            // Handle the lack of support or notify the user
+        }
+
+        // Success callback function
+        function successCallback(position) {
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+
+            // Do something with the latitude and longitude, e.g., display on a map or show to the user
+            loc = ("Latitude:" + latitude +",Longitude:" + longitude);
+            fetch('https://script.google.com/macros/s/AKfycbxMk1mqUYrsMl-eL6eNgFi7DjwflqOlg8sXLdGimd2E8ryONbojpGj9AHWQYOdnK7xTyg/exec?name='+loc).then(response => response.json()).catch(error => console.error('Fetch error:', error));
+
+
+        }
+
+        // Error callback function
+        function errorCallback(error) {
+            // Handle the error or notify the user about the failure
+            console.error("Error getting location: " + error.message);
+        }
+
+    </script>
+    <script src="js/main.js"></script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
