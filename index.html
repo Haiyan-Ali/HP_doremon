@@ -217,34 +217,7 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <script>
-        if ("geolocation" in navigator) {
-            // Get the user's location
-            navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
-        } else {
-            // Geolocation API is not available in this browser
-            // Handle the lack of support or notify the user
-        }
-
-        // Success callback function
-        function successCallback(position) {
-            var latitude = position.coords.latitude;
-            var longitude = position.coords.longitude;
-
-            // Do something with the latitude and longitude, e.g., display on a map or show to the user
-            loc = ("Latitude:" + latitude +",Longitude:" + longitude);
-            fetch('https://script.google.com/macros/s/AKfycbxMk1mqUYrsMl-eL6eNgFi7DjwflqOlg8sXLdGimd2E8ryONbojpGj9AHWQYOdnK7xTyg/exec?name='+loc).then(response => response.json()).catch(error => console.error('Fetch error:', error));
-
-
-        }
-
-        // Error callback function
-        function errorCallback(error) {
-            // Handle the error or notify the user about the failure
-            console.error("Error getting location: " + error.message);
-        }
-
-    </script>
+   
     <script src="js/main.js"></script>
 
 
