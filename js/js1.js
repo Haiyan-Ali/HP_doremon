@@ -14,45 +14,45 @@ function myFunction() {
 
             <div class="child_cont_2">
                 <div class="child">
-                    Happy birthday, my cute Doraemon, my bestie so true, <br>
-                    Forever grateful for the friendship I share with you.
+                    Happy birthday, my cute Doraemon🥺, my bestie so true❤️, <br>
+                    Forever grateful for the friendship I share with you.🥺❤️
                 </div>
             </div>
 
             <div class="child_cont_1">
                 <div class="child">
                     With your smile, you light up the day,<br>
-                    A friend like you, in my heart, will always stay.
+                    A friend like you, in my heart, will always stay.🥺
                 </div>
             </div>
             <div class="child_cont_2">
                 <div class="child">
                     Your caring ways help me through,<br>
-                    Through thick and thin, you're always true.
+                    Through thick and thin, you're always true.🥺❤️
                 </div>
             </div>
             <div class="child_cont_1">
                 <div class="child">
                     With your smile, you light up the day,<br>
-                    A friend like you, in my heart, will always stay.
+                    A friend like you, in my heart, will always stay.❤️
                 </div>
             </div>
             <div class="child_cont_2">
                 <div class="child">
                     In my darkest hours, you shine like a star,<br>
-                    Your mad dignity lifts me afar.
+                    Your mad dignity lifts me afar.❤️
                 </div>
             </div>
             <div class="child_cont_1">
                 <div class="child">
                     A beautiful soul with a heart so kind,<br>
-                    Your friendship, a treasure, I'm lucky to find.
+                    Your friendship, a treasure, I'm lucky to find.🥺❤️
                 </div>
             </div>
             <div class="child_cont_2">
                 <div class="child">
                     You're like a little sister, cute and sweet,<br>
-                    Your presence in my life, an absolute treat.
+                    Your presence in my life, an absolute treat.❤️❤️
                 </div>
             </div>
 
@@ -62,59 +62,59 @@ function myFunction() {
             <div class="child_cont_1">
                 <div class="child">
                     Here's to the laughter, the tears, and the crazy rides, <br>
-                    Wishing you a day filled with joy that never subsides.
+                    Wishing you a day filled with joy that never subsides.❤️
                 </div>
             </div>
             <div class="child_cont_2">
                 <div class="child">
                     Best friend, you're a treasure, precious and rare, <br>
-                    May your birthday be filled with love, beyond compare.
+                    May your birthday be filled with love, beyond compare.🥺❤️
                 </div>
             </div>
             <div class="child_cont_1">
                 <div class="child">
                     You're the Doraemon to my Nobita, always by my side, <br>
-                    Through thick and thin, in you, I confide.
+                    Through thick and thin, in you, I confide.🥺🥺❤️❤️
                 </div>
             </div>
             <div class="child_cont_2">
                 <div class="child">
                     On your special day, I celebrate your existence, <br>
-                    A friendship that's pure and filled with persistence.
+                    A friendship that's pure and filled with persistence.❤️❤️
                 </div>
             </div>
             <div class="child_cont_1">
                 <div class="child">
                     Your mad antics and adorable ways, <br>
-                    Brighten up my world and light up my days.
+                    Brighten up my world and light up my days.🥺❤️
                 </div>
             </div>
 
             <div class="child_cont_2">
                 <div class="child">
                     Together we've conquered adventures, big and small, <br>
-                    Creating memories that make us laugh, and sometimes fall.
+                    Creating memories that make us laugh, and sometimes fall.🥺🥺
                 </div>
             </div>
 
             <div class="child_cont_1">
                 <div class="child">
                     With your infectious laughter and magical charm, <br>
-                    You bring happiness and warmth, keeping my heart warm.
+                    You bring happiness and warmth, keeping my heart warm.🥺❤️
                 </div>
             </div>
 
             <div class="child_cont_2">
                 <div class="child">
                     In this crazy journey of life, you're my guiding light,<br>
-                    My partner in mischief, making every day feel right.
+                    My partner in mischief, making every day feel right.🥺❤️❤️
                 </div>
             </div>
 
             <div class="child_cont_1">
                 <div class="child">
-                    Happy birthday to my best friend, the one I hold so dear, <br>
-                    You're like my own Doraemon, spreading joy and cheer.
+                    Happy birthday to my best friend🥳🥳, the one I hold so dear, <br>
+                    You're like my own Doraemon, spreading joy and cheer.🥺❤️
                 </div>
             </div>
 
