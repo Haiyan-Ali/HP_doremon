@@ -34,8 +34,8 @@ function moveDiv(callback) {
                 <br>
 
                 <div class="d-flex" style="justify-content: center; width: 100%;">
-                  <img src="/images/heart.png" alt="" width="70px">
-                  <img src="/images/sweet_emoji.png" alt="" width="70px">
+                  <img src="/HP_doremon/images/heart.png" alt="" width="70px">
+                  <img src="/HP_doremon/images/sweet_emoji.png" alt="" width="70px">
 
                 </div>
                 <br>
